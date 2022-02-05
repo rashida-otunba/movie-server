@@ -1,0 +1,6 @@
+<h1>movies list</h1>
+<ul>
+    ${showData.map(showData => `
+              <li><a href="${path}/${showData.Title}">Title: ${showData.Title}</a></li>
+    `).join('')}
+    </ul>
